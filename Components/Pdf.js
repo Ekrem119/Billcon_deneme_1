@@ -4,7 +4,7 @@ import { printToFileAsync } from "expo-print";
 import { shareAsync } from "expo-sharing";
 
 
-export default function htmltopdf() {
+export default function Pdf() {
   const [name, setName] = useState("");
   const [age, setAge] = useState("");
 
